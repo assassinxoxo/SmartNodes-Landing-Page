@@ -28,7 +28,7 @@ const Navbar = () => {
             to="main"
             smooth={true}
             duration={1000}
-            className="active text-white cursor-pointer"
+            className="active text-white cursor-pointer mx-2"
           >
             Home
           </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
             to="features"
             smooth={true}
             duration={1000}
-            className="active text-white cursor-pointer"
+            className="active text-white cursor-pointer mx-2"
           >
             About
           </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             to="roadmap"
             smooth={true}
             duration={1000}
-            className="active text-white cursor-pointer"
+            className="active text-white cursor-pointer mx-2"
           >
             Roadmap
           </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
             to="collection"
             smooth={true}
             duration={1000}
-            className="active text-white cursor-pointer"
+            className="active text-white cursor-pointer mx-2"
           >
             NFT
           </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <li>
           <a
             href="https://smartnodes.finance/"
-            className="active text-white cursor-pointer"
+            className="active text-white cursor-pointer mx-2"
             target={"_blank"}
           >
             DAPP

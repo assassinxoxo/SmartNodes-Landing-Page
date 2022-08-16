@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron:wght@400;500;600;700&display=swap");
 
 body {
   margin: 0px;
   padding: 0px;
 
   background-color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Orbitron";
 }
 * {
   box-sizing: border-box;
+  font-family: "Orbitron";
 }
 ul {
   list-style: none;
@@ -36,6 +38,7 @@ input {
   width: 100%;
   height: 768px;
   position: relative;
+  font-style: obitron;
   /* background-repeat: no-repeat;
   background-size: auto;
   background-image: url("./images/background.png"); */
@@ -60,7 +63,7 @@ nav ul {
   display: flex;
 }
 .active {
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
   color: #ffffff;
   /* box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411); */
   transition: all ease 0.2s;
@@ -81,7 +84,7 @@ nav ul li a {
   transition: 0.2s ease-in-out;
 }
 nav ul li a:hover {
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
   color: #ffffff;
   box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
   transition: all ease 0.2s;
@@ -99,7 +102,7 @@ nav .menu-btn,
   transform: translate(-22%, -50%);
 }
 .name span {
-  color: #00b7ff;
+  color: rgb(250, 162, 26);
 }
 .name .details {
   color: #969696;
@@ -121,7 +124,7 @@ nav .menu-btn,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
   box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
   border-radius: 10px;
   color: #ffffff;
@@ -169,7 +172,7 @@ nav .menu-btn,
 }
 .about-text h2 {
   font-size: 2rem;
-  color: #00b7ff;
+  color: rgb(250, 162, 26);
   font-weight: 500;
   margin: 0px;
   padding: 0px;
@@ -187,7 +190,7 @@ nav .menu-btn,
   border: none;
   outline: none;
   color: #ffffff;
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
 }
 .about-text button:hover {
   background-color: rgb(233, 153, 48);
@@ -313,7 +316,7 @@ nav .menu-btn,
   align-items: center;
   text-align: center;
   flex-direction: column;
-  color: #00b7ff;
+  color: rgb(250, 162, 26);
 }
 .s-b-text p {
   margin: 0px;
@@ -350,7 +353,7 @@ nav .menu-btn,
 }
 
 #contact {
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -382,7 +385,7 @@ nav .menu-btn,
 .contact-input a {
   width: 200px;
   height: 35px;
-  background-color: #00b7ff;
+  background-color: rgb(250, 162, 26);
   color: #ffffff;
   display: flex;
   font-size: 0.9rem;
